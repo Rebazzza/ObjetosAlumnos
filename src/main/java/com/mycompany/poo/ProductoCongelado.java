@@ -18,8 +18,8 @@ public class ProductoCongelado extends Producto {
     
     @Override
     public String toString(){
-        return "Producto Congelado {" + "nombre de producto: " + super.getNombre() 
-                + "fecha de caducidad: " + super.getFechaDeCaducidad() + "Numero de lote: "
-                + super.getNumeroDeLote() + "temperatura: " + this.getTemperaturaDeCongelacion() + "}";
+        return "Producto Congelado {" + "\n nombre de producto: " + super.getNombre() 
+                + "\nfecha de caducidad: " + super.getFechaDeCaducidad() + "\nNumero de lote: "
+                + super.getNumeroDeLote() + "\ntemperatura: " + this.getTemperaturaDeCongelacion() + "}";
     }
 }
