@@ -18,8 +18,8 @@ public class ProductoRefrigerado extends Producto{
     
     @Override
     public String toString(){
-        return "Producto Refrigerado {" + "Nombre: " + super.getNombre() + "fecha de caducidad: " 
-                + super.getFechaDeCaducidad() + "numero de lote: " + super.getNumeroDeLote()
-                + "codigo digesa: " + this.codigoDigesa + "}";
+        return "Producto Refrigerado {" + "\nNombre: " + super.getNombre() + "\nfecha de caducidad: " 
+                + super.getFechaDeCaducidad() + "\nnumero de lote: " + super.getNumeroDeLote()
+                + "\ncodigo digesa: " + this.codigoDigesa + "}";
     }
 }
